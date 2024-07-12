@@ -39,8 +39,8 @@ flash_state = True  # True for red, False for black
 
 # Load and play sound
 pygame.mixer.init()
-#sound = pygame.mixer.Sound("Red-Alert.wav")
-sound = pygame.mixer.Sound("Tornado.wav")
+sound = pygame.mixer.Sound("Red-Alert.wav")
+#sound = pygame.mixer.Sound("Tornado.wav")
 sound.play(loops=-1)  # Play sound on loop
 
 # Main loop
